@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="API testing suite" parallel="methods" thread-count="9">
+	<!-- Tests -->
+	<test name="all tests">
+		<classes>
+			<class name="hometask.tests.ApacheHttpClientUsersTest"/>	
+			<class name="hometask.tests.RestAssuredUsersTest"/>	
+			<class name="hometask.tests.RestTemplateUsersTest"/>	
+		</classes>
+	</test>
+</suite>

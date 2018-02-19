@@ -1,0 +1,10 @@
+.settings/
+target/
+test-output/
+src/main/
+src/test/resources/driver/
+src/test/resources/screenshots/
+bin/
+*.classpath
+*.project
+*.jar
